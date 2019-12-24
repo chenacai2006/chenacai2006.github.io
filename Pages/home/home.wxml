@@ -1,0 +1,6 @@
+<!--Pages/home/home.wxml-->
+<text class="title">Hello {{name}}</text>
+<button size="mini">按钮</button>
+<view>{{age}}</view>
+<view>{{sex}}</view>
+<view wx:for="{{students}}">{{item.name}},{{item.age}}</view>

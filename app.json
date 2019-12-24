@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "Pages/home/home",
+    "Pages/cmx/cmx"
+  ],
+  "window": {
+    "navigationStyle": "default",
+    "navigationBarBackgroundColor": "#ff5757",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "陈育才小程序",
+    "backgroundColor": "",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "bottom",
+    "selectedColor": "#ff5757",
+    
+    "list": [
+      {
+        "pagePath": "Pages/home/home",
+        "text": "主页",
+        "iconPath": "ziyuan/home.jpg",
+        "selectedIconPath": "ziyuan/home.jpg"
+      },
+      {
+        "pagePath": "Pages/cmx/cmx",
+        "text": "关于",
+        "iconPath": "ziyuan/cmx.jpg",
+        "selectedIconPath": "ziyuan/cmx2.jpg"
+      }
+    ]
+    
+  },
+  "sitemapLocation": "sitemap69.json"
+}
